@@ -52,7 +52,7 @@ hw1_m11435021/
 │   ├── hw1_part2_preprocessing.ipynb    # Part 2: 統一資料前處理模組(.ipynb)
 │   └── hw1_part3_cart_pruning.ipynb     # Part 3: CART 剪枝分析(.ipynb)
 │
-├── results/                            # 結果輸出目錄（執行後產生）
+├── results/                            # 結果輸出目錄（手動推）
 ├── logs/                               # 日誌檔案目錄（執行後產生）
 └── README.md                           # 本說明文件
 ```
