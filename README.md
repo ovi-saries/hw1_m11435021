@@ -233,7 +233,7 @@ pip install rpy2
      - Number of Nodes and Depth vs Alpha
      - Accuracy vs Alpha（標註三個關鍵點）
 - **執行方式**：使用 Jupyter Notebook 開啟並執行（已有跑過的過程）
-- **輸出檔案**：
+- **[輸出檔案](https://github.com/ovi-saries/hw1_m11435021/tree/main/results/part3)**：
   - `total_impurity_vs_alpha.png`：總不純度隨 alpha 變化
   - `nodes_and_depth_vs_alpha.png`：節點數與深度隨 alpha 變化
   - `accuracy_vs_alpha_cart.png`：準確率隨 alpha 變化（含標註點）
@@ -268,4 +268,22 @@ pip install rpy2
 測試準確率由高到低
 CART (optimal) (0.8526) > C5.0 (0.8491) > C4.5 (0.8398) > ID3 (prune) (0.8231) > ID3 (no prune) (0.8079) > CART (no prune) (0.8024)
 
+[Part2_Excel](https://github.com/ovi-saries/hw1_m11435021/blob/main/results/hw1_part2_decision_trees_comparison.xlsx)
+
 ---
+
+## 參考資料
+
+[1]. Becker, B., & Kohavi, R. (1996). Adult [Dataset]. UCI Machine Learning Repository. https://archive.ics.uci.edu/dataset/2/adult
+
+[2]. Esmer, B. (n.d.). C4.5: A Python implementation of C4.5 algorithm by R. Quinlan. GitHub. https://github.com/barisesmer/C4.5?tab=readme-ov-file
+
+[3]. GeeksforGeeks. (2025, July 23). Sklearn | Iterative Dichotomiser 3 (ID3) Algorithms. https://www.geeksforgeeks.org/machine-learning/sklearn-iterative-dichotomiser-3-id3-algorithms/
+
+[4]. R Core Team. (n.d.). C50: C5.0 Decision Trees and Rule-Based Models. CRAN. https://cran.r-project.org/package=C50
+
+[5]. Salzberg, S. L. (1994). Book Review: C4.5: Programs for Machine Learning by J. Ross Quinlan. Machine Learning, 16(3), 235-240. https://link.springer.com/article/10.1023/A:1022645310020
+
+[6]. Scikit-learn developers. (n.d.). Cost Complexity Pruning. https://scikit-learn.org/stable/auto_examples/tree/plot_cost_complexity_pruning.html#sphx-glr-auto-examples-tree-plot-cost-complexity-pruning-py
+
+[7]. Scikit-learn developers. (n.d.). DecisionTreeClassifier. Scikit-learn documentation. https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
